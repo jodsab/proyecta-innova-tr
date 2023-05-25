@@ -1,0 +1,25 @@
+@import "../../../resources/colors.scss";
+
+.trdescription_container {
+  margin-top: 20px;
+  .description {
+    margin-top: 30px;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: 20px;
+    .icon_text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 10px;
+      svg {
+        color: $primary;
+      }
+    }
+  }
+}

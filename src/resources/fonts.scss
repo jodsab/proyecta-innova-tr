@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "avenirBold";
+  src: url("../assets/avenir_ff/AvenirLTStd-Black.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "avenirSemiBold";
+  src: url("../assets/avenir_ff/AvenirLTStd-Roman.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "avenir";
+  src: url("../assets/avenir_ff/AvenirLTStd-Book.otf") format("truetype");
+}
+
+/* Puedes utilizar la fuente importada en tu estilo */
+.bold {
+  font-family: "avenirBold";
+}
+
+.semiBold {
+  font-family: "avenirSemiBold";
+}
+
+.bigText {
+  font-size: 26px;
+}
+
+.mediumText {
+  font-size: 18px;
+}
+
+.textCenter {
+  text-align: center;
+}
