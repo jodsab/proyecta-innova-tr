@@ -1,0 +1,51 @@
+@import "../../../resources/colors.scss";
+
+.trfooter_container {
+  padding-bottom: 20px;
+  .logo_footer {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    img {
+      width: 150px;
+    }
+  }
+  .subscribe {
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    input {
+      padding: 7px 12px;
+      border: 1px solid $secondary;
+      border-radius: 8px;
+    }
+    input:focus {
+      outline: 1px solid $primary;
+    }
+
+    button {
+      color: $secondary;
+      border: 1px solid $secondary;
+      padding: 8px 12px;
+      border-radius: 12px;
+      background-color: transparent;
+      cursor: pointer;
+    }
+    button:hover {
+      border: 1px solid $secondary;
+      background-color: $secondary;
+      color: white;
+    }
+    button:active {
+      border: 1px solid $primary;
+      background-color: $primary;
+      color: white;
+    }
+  }
+  .book {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}

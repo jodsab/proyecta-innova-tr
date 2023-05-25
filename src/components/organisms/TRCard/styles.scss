@@ -1,0 +1,76 @@
+@import "../../../resources/colors.scss";
+
+.trcard_container {
+  position: relative;
+  .social_icons {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    .icons_container {
+      background-color: white;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 2px 12px;
+      color: $primary;
+      a {
+        cursor: pointer;
+      }
+      a:hover {
+        color: $secondary;
+      }
+    }
+  }
+  .card_container {
+    box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+    border-radius: 20px;
+    .card_header {
+      display: flex;
+      justify-content: space-evenly;
+      gap: 10px;
+      padding: 10px;
+
+      .primaryColor {
+        color: $primary;
+      }
+
+      .iconText {
+        gap: 5px;
+      }
+    }
+    .card_body {
+      background-color: $tertiary;
+      border-radius: 0 0 20px 20px;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      .flex_body_left {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        .spaceDscto {
+          background-color: $primary;
+          color: white;
+          padding: 6px 12px;
+          border-radius: 18px;
+          display: flex;
+          align-items: flex-end;
+          gap: 5px;
+        }
+      }
+      .flex_body_right {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        color: $primary;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Home": {
+    "TRCard": {
+      "header": {
+        "delivery": "Entrega inmediata",
+        "location": "Lima Norte / Los Olivos"
+      },
+      "body": {
+        "urb": "Urbanización",
+        "name": "CENTENARIO",
+        "discount": "Dscto. de hasta",
+        "price": "S/8.000",
+        "coutes": "Con cuotas",
+        "months": "mensuales desde:",
+        "dsct": "S/1.985"
+      }
+    },
+    "TRWeHave": {
+      "header": {
+        "weHave": "¡TENEMOS LO QUE NECESITAS!"
+      }
+    }
+  }
+}

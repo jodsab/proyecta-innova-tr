@@ -1,0 +1,101 @@
+@import "../../../resources/colors.scss";
+
+.comentario_container {
+  background-color: $tertiary;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .coment_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    .comentarios {
+      color: white;
+      background-color: $primary;
+      padding: 8px 15px;
+      border-radius: 15px;
+    }
+  }
+  .message_align {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 50px;
+    .message_container {
+      height: 80%;
+      background-color: white;
+      border-radius: 19px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      .foto_perfil {
+        position: absolute;
+        height: 120px;
+        width: 120px;
+        top: -60px;
+        border-radius: 50%;
+        border: 2px solid white;
+        object-fit: cover;
+      }
+      .message {
+        width: 50%;
+        text-align: center;
+      }
+      svg {
+        color: rgba(31, 27, 98, 0.2);
+      }
+      .svg_open {
+        position: absolute;
+        top: 10%;
+        left: 20px;
+      }
+      .svg_close {
+        position: absolute;
+        bottom: 10%;
+        right: 20px;
+      }
+    }
+    .name {
+      margin-top: 40px;
+      position: absolute;
+      bottom: 20px;
+      color: $primary;
+    }
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-wrapper {
+  height: 500px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}

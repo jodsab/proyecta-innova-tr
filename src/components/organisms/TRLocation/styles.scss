@@ -1,0 +1,44 @@
+@import "../../../resources/colors.scss";
+
+.trlocation_container {
+  .location {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    .title_location {
+      border-radius: 25px;
+      background-color: $primary;
+      padding: 8px 12px;
+      color: white;
+    }
+  }
+  .map_container {
+    display: flex;
+    justify-content: center;
+    .iframe_map {
+      width: 95%;
+      height: 400px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    .button {
+      gap: 10px;
+      color: $primary;
+      border: 2px solid $primary;
+      border-radius: 12px;
+      padding: 5px 12px;
+    }
+    .button:hover {
+      background-color: $primary;
+      color: white;
+    }
+  }
+}

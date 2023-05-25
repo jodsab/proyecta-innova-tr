@@ -1,0 +1,30 @@
+@import "../../../resources/colors.scss";
+
+.tr_navigation_container {
+  .tr_navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 92%;
+    margin: auto;
+    height: 70px;
+
+    .logo {
+      height: 80%;
+      object-fit: cover;
+    }
+
+    .button {
+      background-color: $secondary;
+      color: white;
+      border: 0;
+      border-radius: 22px;
+      padding: 10px 30px;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: $primary;
+    }
+  }
+}

@@ -1,0 +1,77 @@
+@import "../../../resources/colors.scss";
+
+.trform_container {
+  background-color: $secondary;
+  padding: 20px 30px;
+  .steps_button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    p {
+      margin-top: 20px;
+      background-color: white;
+      padding: 5px;
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .header {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+  }
+
+  .form {
+    .form_content {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      input {
+        width: 100%;
+      }
+      .names {
+        display: flex;
+        gap: 20px;
+      }
+      .input_field {
+        padding: 10px;
+      }
+
+      .terms_container,
+      .politics_container {
+        display: flex;
+        align-items: flex-end;
+        gap: 5px;
+        width: 100%;
+        font-size: 14px;
+        input {
+          width: 15px;
+        }
+        .text {
+          color: white;
+          gap: 5px;
+        }
+      }
+      .submit_button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 15px;
+        background-color: $primary;
+        color: white;
+        border: 0;
+        cursor: pointer;
+      }
+      .submit_button:hover {
+        background-color: $orange;
+        color: $primary;
+      }
+    }
+  }
+}

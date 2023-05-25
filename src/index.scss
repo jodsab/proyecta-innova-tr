@@ -1,0 +1,23 @@
+@import url("./resources/globalStyles.scss");
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+p,
+button {
+  font-family: "avenir";
+}
+
+p {
+  margin: 0;
+}
