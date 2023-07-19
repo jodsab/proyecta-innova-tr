@@ -1057,9 +1057,9 @@ dom-walk@^0.1.0:
   integrity sha512-6QvTW9mrGeIegrFXdtQi9pk7O/nSK6lSdXW2eqUspN5LWD7UTji2Fqw5V2YLjBpHEoU9Xl/eUWNpDeZvoyOv2w==
 
 electron-to-chromium@^1.4.284:
-  version "1.4.406"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.406.tgz#6388f92a0443d0f0ffcda890489edbe2012488f2"
-  integrity sha512-NXlDDH8Z4tK5ZX7w9dW/lRUsZ0TwL1rg3Sw1e5HKbk3+LCAh3SyUjYyGoxOf9xNxyg+DtaofkFpHS4T5Z2Q26w==
+  version "1.4.407"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.407.tgz#087e2ab97b3eb092aa6217c05986086b7dd370cc"
+  integrity sha512-5smEvFSFYMv90tICOzRVP7Opp98DAC4KW7RRipg3BuNpGbbV3N+x24Zh3sbLb1T5haGtOSy/hrBfXsWnIM9aCg==
 
 esbuild@^0.17.5:
   version "0.17.19"
@@ -1967,9 +1967,9 @@ rc-pagination@~3.4.2:
     classnames "^2.2.1"
 
 rc-picker@~3.7.4:
-  version "3.7.5"
-  resolved "https://registry.yarnpkg.com/rc-picker/-/rc-picker-3.7.5.tgz#66282e02dde5bc1bd69ac5004abfbe06cc5c1eee"
-  integrity sha512-t9duzOtk8uN+mFr+WYcH7jZzTImfPVLzz8h3zD+hObURqpI36mfCvhPRc4blCflbhWZ7NAJQDGWbAMXixxFLYA==
+  version "3.7.6"
+  resolved "https://registry.yarnpkg.com/rc-picker/-/rc-picker-3.7.6.tgz#984122b39bbe9244c69f90eaadbb4890d68a32f7"
+  integrity sha512-v84wVXjgx5hQ5vTLjMeMMtj6+gn480Gqzwur2A2+o8+eFnhY4jKmuqzHmD8sEevrz0WT/j1pLHFxAV8/lksI2A==
   dependencies:
     "@babel/runtime" "^7.10.1"
     "@rc-component/trigger" "^1.5.0"

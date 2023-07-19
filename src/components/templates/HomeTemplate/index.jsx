@@ -21,8 +21,8 @@ const HomeTemplate = () => {
         <TRDescription />
         <TRLocation />
         <TRWeHave />
-        <TRMultimedia />
-        {/* <TRForm /> */}
+        {/* <TRMultimedia /> */}
+        <TRForm />
       </div>
       <div>
         <TRComentarios />

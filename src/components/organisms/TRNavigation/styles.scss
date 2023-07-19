@@ -19,12 +19,58 @@
       color: white;
       border: 0;
       border-radius: 22px;
-      padding: 10px 30px;
+      padding: 10px 20px;
       cursor: pointer;
     }
 
     .button:hover {
       background-color: $primary;
     }
+  }
+}
+
+.menu_container {
+  button {
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+    height: 3rem;
+    border: 0;
+    background-color: transparent;
+    gap: 0.65rem;
+  }
+  button > div {
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    border-radius: 5px;
+    transition: all 0.5s;
+    transform-origin: left;
+  }
+  button:hover div:first-child {
+    transform: rotate(45deg);
+  }
+  button:hover div:nth-child(2) {
+    opacity: 0;
+  }
+  button:hover div:last-child {
+    transform: rotate(-45deg);
+  }
+}
+
+.drawer_menu_container {
+  position: fixed;
+  left: 0;
+  top: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  width: 100vw;
+  z-index: 999999;
+  .menu_content {
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    right: 0;
   }
 }

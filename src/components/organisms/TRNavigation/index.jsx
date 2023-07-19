@@ -4,8 +4,20 @@ import { BiMenu } from "react-icons/bi";
 import Logo from "../../../assets/logo.png";
 import "./styles.scss";
 
+const CloseButton = () => {
+  return (
+    <div className="menu_container">
+      <button>
+        <div></div>
+        <div></div>
+        <div></div>
+      </button>
+    </div>
+  );
+};
+
 const TRNavigation = () => {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
   const showDrawer = () => {
     setOpen(true);
   };
@@ -17,16 +29,15 @@ const TRNavigation = () => {
       <div className="tr_navigation">
         <img className="logo" src={Logo} alt="logo" />
         <button className="button" type="primary">
-          <p className="bold">¡Registrate aquí!</p>
+          <p className="bold">Solicitar información</p>
         </button>
         <BiMenu size={40} onClick={showDrawer} />
-        <Drawer
-          title="Basic Drawer"
-          placement={"right"}
-          closable={false}
-          onClose={onClose}
-          open={open}
-        ></Drawer>
+        {/*         <CloseButton />
+        <div className="drawer_menu_container">
+          <div className="menu_content">
+            <p>Menu Content</p>
+          </div>
+        </div> */}
       </div>
     </div>
   );
