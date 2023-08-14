@@ -42,3 +42,15 @@
     }
   }
 }
+
+@media (min-width: 1200px) {
+  .trlocation_container {
+    .map_container {
+      .iframe_map {
+        max-width: 1500px;
+        width: 80%;
+        height: 500px;
+      }
+    }
+  }
+}

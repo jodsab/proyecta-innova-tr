@@ -9,6 +9,7 @@ import TRComentarios from "../../organisms/TRComentarios";
 import TRFoooter from "../../organisms/TRFooter";
 import TRLocation from "../../organisms/TRLocation";
 import TRMultimedia from "../../organisms/TRMultimedia";
+import TRGalery from "../../organisms/TRGalery";
 import "./styles.scss";
 
 const HomeTemplate = () => {
@@ -21,7 +22,12 @@ const HomeTemplate = () => {
         <TRDescription />
         <TRLocation />
         <TRWeHave />
-        {/* <TRMultimedia /> */}
+      </div>
+      <div>
+        <TRGalery />
+      </div>
+      <div className="home_container">
+        <TRMultimedia />
         <TRForm />
       </div>
       <div>

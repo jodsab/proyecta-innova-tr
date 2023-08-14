@@ -19,18 +19,16 @@ const TRDescription = () => {
       <div className="icons">
         <div className="icon_text">
           <GoLocation size={SVGICONS} />
-          <p>Av. Las lomas de lurigancho</p>
+          <p>Centro Comercial, Av. Primavera 120, Santiago de Surco 15038</p>
         </div>
         <div className="icon_text">
           <GiForestCamp size={SVGICONS} />
-          <p>
-            Terrenos desde 100m<sup>2</sup>
-          </p>
+          <p>Centro Comercial, Av. Primavera 120, Santiago de Surco 15038</p>
         </div>
-        <div className="icon_text">
+        {/*         <div className="icon_text">
           <TbTrain size={SVGICONS} />
           <p>A pocos minutos de la estación del tren</p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
