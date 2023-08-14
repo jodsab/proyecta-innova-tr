@@ -29,10 +29,20 @@ const ICON_SIZE = 24;
 
 const TRGalery = () => {
   const [toggleGallery, setToggleGallery] = useState(true);
-  const galleryLotes = [];
-  for (var i = 1; i <= 12; i++) {
-    galleryLotes[i] = { id: i, img: eval(`lote${i}`) };
-  }
+  const galleryLotes = [
+    lote1,
+    lote2,
+    lote3,
+    lote4,
+    lote5,
+    lote6,
+    lote7,
+    lote8,
+    lote9,
+    lote10,
+    lote11,
+    lote12,
+  ].map((img, id) => ({ id: id + 1, img }));
 
   return (
     <div className="galery_container">
