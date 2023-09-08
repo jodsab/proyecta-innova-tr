@@ -19,12 +19,84 @@
       color: white;
       border: 0;
       border-radius: 22px;
-      padding: 10px 30px;
+      padding: 10px 20px;
       cursor: pointer;
     }
 
     .button:hover {
       background-color: $primary;
     }
+  }
+}
+
+.menu_container {
+  button {
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+    height: 3rem;
+    border: 0;
+    background-color: transparent;
+    gap: 0.65rem;
+  }
+  button > div {
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    border-radius: 5px;
+    transition: all 0.5s;
+    transform-origin: left;
+  }
+  button:hover div:first-child {
+    transform: rotate(45deg);
+  }
+  button:hover div:nth-child(2) {
+    opacity: 0;
+  }
+  button:hover div:last-child {
+    transform: rotate(-45deg);
+  }
+}
+
+.drawer_menu_container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  height: 100vh;
+  width: 100vw;
+  z-index: 999999;
+  transition: 0.6s all 0s ease-out;
+  .background_black {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    &.active {
+      display: block;
+    }
+    &.disabled {
+      display: none;
+    }
+  }
+  .menu_content {
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    transition: 0.8s all 0s ease-out;
+    z-index: 9999999;
+    &.active {
+      right: 0;
+    }
+
+    &.disabled {
+      right: -100%;
+    }
+  }
+  &.active {
+    right: 0;
+  }
+  &.disabled {
+    right: -100%;
   }
 }

@@ -18,7 +18,6 @@ const TRSwiper = () => {
   for (var i = 0; i < 5; i++) {
     portadas[i] = i + 1;
   }
-  console.log(portadas);
   return (
     <Swiper
       slidesPerView={1}

@@ -4,11 +4,9 @@
   position: relative;
   .social_icons {
     position: absolute;
-    margin-left: auto;
-    margin-right: auto;
     left: 0;
     right: 0;
-    bottom: -15px;
+    bottom: 0;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -17,8 +15,8 @@
       border-radius: 20px;
       display: flex;
       align-items: center;
-      gap: 7px;
-      padding: 2px 12px;
+      gap: 14px;
+      padding: 4px 12px;
       color: $primary;
       a {
         cursor: pointer;
@@ -49,20 +47,23 @@
       background-color: $tertiary;
       border-radius: 0 0 20px 20px;
       padding: 20px;
+      padding-bottom: 34px;
       display: flex;
       justify-content: space-between;
       .flex_body_left {
         display: flex;
         flex-direction: column;
-        gap: 40px;
+        gap: 20px;
         .spaceDscto {
           background-color: $primary;
           color: white;
-          padding: 6px 12px;
+          padding: 10px 5px;
           border-radius: 18px;
           display: flex;
-          align-items: flex-end;
-          gap: 5px;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+          gap: 10px;
         }
       }
       .flex_body_right {

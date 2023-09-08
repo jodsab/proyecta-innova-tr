@@ -1,0 +1,29 @@
+@import "../../../resources/colors.scss";
+
+.trmultimedia_container {
+  width: 100%;
+  .tour_content {
+    width: 92%;
+    margin: auto;
+  }
+  .tour {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    .title_tour {
+      border-radius: 25px;
+      background-color: $primary;
+      padding: 8px 12px;
+      color: white;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .trmultimedia_container {
+    .content {
+      width: 80%;
+      max-width: 1000px;
+    }
+  }
+}
