@@ -10,12 +10,7 @@ const TRDescription = () => {
   return (
     <div className="trdescription_container content">
       <p className="bold bigText">Descripción</p>
-      <p className="textCenter description mediumText">
-        Lorem ipsum dolor sit amet consectetur. Habitant vitae sed in nulla.
-        Elementum aliquet lorem pellentesque nulla odio consequat. Neque
-        porttitor donec et quam. Egestas ornare quis tristique aliquam pulvinar.
-        Augue nisi lacus dignissim massa tellus viverra diam quis nulla. Et.
-      </p>
+      <p className="textCenter description mediumText">La descripción</p>
       <div className="icons">
         <div className="icon_text">
           <GoLocation size={SVGICONS} />

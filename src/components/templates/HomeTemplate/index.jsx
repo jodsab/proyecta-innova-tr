@@ -1,5 +1,6 @@
 import React from "react";
 import TRNavigation from "../../organisms/TRNavigation";
+import TRPortada from "../../organisms/TRPortada";
 import TRSwiper from "../../organisms/TRSwiper";
 import TRCard from "../../organisms/TRCard";
 import TRDescription from "../../organisms/TRDescription";
@@ -17,7 +18,7 @@ const HomeTemplate = () => {
     <div>
       <TRNavigation />
       <div className="home_container">
-        <TRSwiper />
+        <TRPortada />
         <TRCard />
         <TRDescription />
         <TRLocation />

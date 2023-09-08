@@ -11,7 +11,7 @@ import { FaTiktok } from "react-icons/fa";
 import { BsWhatsapp } from "react-icons/bs";
 import "./styles.scss";
 
-const SVGSIZE = 23;
+const SVGSIZE = 24;
 const BIGSVGSIZE = 25;
 
 const TRCard = () => {
@@ -19,7 +19,7 @@ const TRCard = () => {
   const m = TRCard;
 
   return (
-    <div className="trcard_container content">
+    <div className="trcard_container boxSuperShadow content">
       <div className="social_icons">
         <div className="icons_container">
           <a>
@@ -62,11 +62,11 @@ const TRCard = () => {
               <p>por pago al contado</p>
             </div>
           </div>
-          <div className="flex_body_right">
+          {/* <div className="flex_body_right">
             <p>Con cuota</p>
             <p>inicial de:</p>
             <p className="bold bigText">S/1.000</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -62,7 +62,7 @@ const TRGalery = () => {
               navigation={true}
               modules={[Pagination, Navigation]}
               className="mySwiper"
-              onSlideChange={(e) => console.log(e.realIndex)}
+              //onSlideChange={(e) => console.log(e.realIndex)}
             >
               {galleryLotes?.map((galleryLote) => (
                 <SwiperSlide key={galleryLote.id}>
@@ -77,10 +77,10 @@ const TRGalery = () => {
               width="100%"
               height="100%"
               src="https://www.youtube.com/embed/mjz6o_cwL7E"
-              title="YouTube video player"
-              frameborder="0"
+              title="Proyecto Bosque Alto - Recorrido 3D"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
         )}

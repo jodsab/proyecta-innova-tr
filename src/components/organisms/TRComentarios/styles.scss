@@ -1,5 +1,50 @@
 @import "../../../resources/colors.scss";
 
+$swiper_size: 320px;
+
+.trcomentarios_container {
+  background-color: $tertiary;
+  padding: 40px 5%;
+  .joinus {
+    text-align: center;
+    color: $secondary;
+    margin-bottom: 20px;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+    border: 5px solid $secondary;
+  }
+
+  .swiper-wrapper {
+    height: $swiper_size;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: $swiper_size;
+    object-fit: cover;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+    height: $swiper_size;
+  }
+}
+
 .comentario_container {
   background-color: $tertiary;
   height: 100%;
@@ -68,36 +113,4 @@
       color: $primary;
     }
   }
-}
-
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-wrapper {
-  height: 500px;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-
-  /* Center slide text vertically */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-.swiper {
-  margin-left: auto;
-  margin-right: auto;
 }
