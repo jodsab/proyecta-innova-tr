@@ -8,7 +8,7 @@ const TRPortada = () => {
     <div className="portada_container">
       <div className="video_container">
         <img className="lotes" src={sticker} />
-        <video autoPlay className="video" controls={false}>
+        <video autoPlay muted loop className="video" controls={false}>
           <source src={portada} type="video/mp4" />
         </video>
       </div>

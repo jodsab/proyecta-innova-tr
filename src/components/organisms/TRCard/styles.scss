@@ -1,28 +1,28 @@
 @import "../../../resources/colors.scss";
 
 .trcard_container {
-  position: relative;
   .social_icons {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
     text-align: center;
     display: flex;
     justify-content: center;
+    overflow-y: hidden;
     .icons_container {
+      bottom: -20px;
       background-color: white;
       border-radius: 20px;
       display: flex;
       align-items: center;
-      gap: 14px;
-      padding: 4px 12px;
+      gap: 20px;
+      padding: 10px 12px 6px;
       color: $primary;
       a {
         cursor: pointer;
       }
       a:hover {
         color: $secondary;
+      }
+      a:visited {
+        color: $primary;
       }
     }
   }
@@ -45,25 +45,20 @@
     }
     .card_body {
       background-color: $tertiary;
-      border-radius: 0 0 20px 20px;
       padding: 20px;
-      padding-bottom: 34px;
       display: flex;
       justify-content: space-between;
       .flex_body_left {
         display: flex;
         flex-direction: column;
-        gap: 20px;
-        .spaceDscto {
+        gap: 15px;
+        .descuento {
           background-color: $primary;
           color: white;
-          padding: 10px 5px;
+          padding: 9px 20px;
           border-radius: 18px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-wrap: wrap;
-          gap: 10px;
+          font-size: 17px;
+          text-align: center;
         }
       }
       .flex_body_right {

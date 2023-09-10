@@ -12,7 +12,7 @@ import { BsWhatsapp } from "react-icons/bs";
 import "./styles.scss";
 
 const SVGSIZE = 24;
-const BIGSVGSIZE = 25;
+const BIGSVGSIZE = 26;
 
 const TRCard = () => {
   const { TRCard } = message.Home;
@@ -20,25 +20,6 @@ const TRCard = () => {
 
   return (
     <div className="trcard_container boxSuperShadow content">
-      <div className="social_icons">
-        <div className="icons_container">
-          <a>
-            <AiFillFacebook size={SVGSIZE} />
-          </a>
-          <a>
-            <AiOutlineInstagram size={SVGSIZE} />
-          </a>
-          <a>
-            <FaTiktok size={SVGSIZE} />
-          </a>
-          <a>
-            <BsWhatsapp size={SVGSIZE} />
-          </a>
-          <a>
-            <AiFillYoutube size={SVGSIZE} />
-          </a>
-        </div>
-      </div>
       <div className="card_container">
         <div className="card_header">
           <div className="flexAlign iconText primaryColor">
@@ -56,10 +37,10 @@ const TRCard = () => {
               <p className="semiBold bigText">CONDOMINIO CAMPESTRE</p>
               <p className="bold bigText">BOSQUE ALTO</p>
             </div>
-            <div className="spaceDscto">
-              <p>Dscto. de hasta</p>
-              <p className="bold mediumText">30%</p>
-              <p>por pago al contado</p>
+            <div className="descuento">
+              <p>
+                Descuento de hasta <strong>30%</strong> por pago al contado
+              </p>
             </div>
           </div>
           {/* <div className="flex_body_right">
@@ -67,6 +48,31 @@ const TRCard = () => {
             <p>inicial de:</p>
             <p className="bold bigText">S/1.000</p>
           </div> */}
+        </div>
+        <div className="social_icons">
+          <div className="icons_container">
+            <a href="https://www.facebook.com/proyectainnovatr" target="_blank">
+              <AiFillFacebook size={SVGSIZE} />
+            </a>
+            <a
+              href="https://www.instagram.com/proyectainnovatr_/"
+              target="_blank"
+            >
+              <AiOutlineInstagram size={SVGSIZE} />
+            </a>
+            <a href="https://www.tiktok.com/@proyecta.innova.t" target="_blank">
+              <FaTiktok size={SVGSIZE} />
+            </a>
+            <a href="https://www.facebook.com/proyectainnovatr" target="_blank">
+              <BsWhatsapp size={SVGSIZE} />
+            </a>
+            <a
+              href="https://www.youtube.com/@ProyectaInnovaTrInmobiliaria"
+              target="_blank"
+            >
+              <AiFillYoutube size={SVGSIZE} />
+            </a>
+          </div>
         </div>
       </div>
     </div>

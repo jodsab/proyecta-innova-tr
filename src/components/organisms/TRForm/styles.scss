@@ -3,6 +3,9 @@
 .trform_container {
   background-color: $secondary;
   padding: 20px 30px;
+  .steps_title {
+    color: white;
+  }
   .steps_button {
     display: flex;
     justify-content: center;
@@ -19,10 +22,15 @@
       align-items: center;
     }
   }
+
+  .ant-steps-item-icon > .ant-steps-icon {
+    color: white !important;
+  }
   .header {
     text-align: center;
     color: white;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 22px;
   }
 
   .form {
@@ -43,19 +51,23 @@
         padding: 10px;
       }
 
+      .rights {
+      }
+
       .terms_container,
       .politics_container {
         display: flex;
-        align-items: flex-end;
         gap: 5px;
         width: 100%;
         font-size: 14px;
-        input {
-          width: 15px;
-        }
-        .text {
+        height: 30px;
+        align-items: center;
+        .rights {
           color: white;
-          gap: 5px;
+        }
+        input {
+          height: 30px;
+          width: 18px;
         }
       }
       .submit_button {
